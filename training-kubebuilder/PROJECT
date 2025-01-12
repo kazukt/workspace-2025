@@ -7,4 +7,14 @@ layout:
 - go.kubebuilder.io/v4
 projectName: training-kubebuilder
 repo: github.com/kazukt/workspace-2025/training-kubebuilder
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: kazukt.github.io
+  group: view
+  kind: MarkdownView
+  path: github.com/kazukt/workspace-2025/training-kubebuilder/api/v1
+  version: v1
 version: "3"
