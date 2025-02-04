@@ -4,7 +4,7 @@ metadata:
   name: controller-manager
   namespace: system
   labels:
-    app.kubernetes.io/name: training-kubebuilder
+    app.kubernetes.io/name: markdown-view
     app.kubernetes.io/managed-by: kustomize
 spec:
   template:

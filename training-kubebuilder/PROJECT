@@ -5,7 +5,7 @@
 domain: kazukt.github.io
 layout:
 - go.kubebuilder.io/v4
-projectName: training-kubebuilder
+projectName: markdown-view
 repo: github.com/kazukt/workspace-2025/training-kubebuilder
 resources:
 - api:

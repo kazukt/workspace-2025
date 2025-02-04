@@ -27,7 +27,7 @@ import (
 	"github.com/kazukt/workspace-2025/training-kubebuilder/test/utils"
 )
 
-const namespace = "training-kubebuilder-system"
+const namespace = "markdown-view-system"
 
 var _ = Describe("controller", Ordered, func() {
 	BeforeAll(func() {
@@ -60,7 +60,7 @@ var _ = Describe("controller", Ordered, func() {
 			var err error
 
 			// projectimage stores the name of the image used in the example
-			var projectimage = "example.com/training-kubebuilder:v0.0.1"
+			var projectimage = "example.com/markdown-view:v0.0.1"
 
 			By("building the manager(Operator) image")
 			cmd := exec.Command("make", "docker-build", fmt.Sprintf("IMG=%s", projectimage))

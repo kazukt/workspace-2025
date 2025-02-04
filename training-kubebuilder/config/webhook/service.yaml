@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    app.kubernetes.io/name: training-kubebuilder
+    app.kubernetes.io/name: markdown-view
     app.kubernetes.io/managed-by: kustomize
   name: webhook-service
   namespace: system
